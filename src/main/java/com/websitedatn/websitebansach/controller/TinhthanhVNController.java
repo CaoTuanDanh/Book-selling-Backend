@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://astonishing-sunburst-3df6f9.netlify.app")
 @RequestMapping("/apiTinhthanh")
 public class TinhthanhVNController {
 
