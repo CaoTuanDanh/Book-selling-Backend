@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("hhttps://astonishing-sunburst-3df6f9.netlify.app")
+@CrossOrigin("https://astonishing-sunburst-3df6f9.netlify.app")
 @RequestMapping("/apicate")
 public class ProductCategoryController {
 
