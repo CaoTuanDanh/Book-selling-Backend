@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.List;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://astonishing-sunburst-3df6f9.netlify.app")
 public interface CustomerRepository extends JpaRepository<Customer,Long> {
     @Query("SELECT p FROM Customer p WHERE CONCAT(p.email) LIKE %?1%")
     public List<Customer> findAllByEmail(String keyword);
