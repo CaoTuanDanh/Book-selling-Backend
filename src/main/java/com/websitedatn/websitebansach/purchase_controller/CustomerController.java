@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("https://astonishing-sunburst-3df6f9.netlify.app")
+@CrossOrigin("https://book-selling-dtshop.netlify.app")
 @RequestMapping("/apiCustomer")
 public class CustomerController {
 
